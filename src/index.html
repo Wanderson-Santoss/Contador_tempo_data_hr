@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
@@ -17,12 +18,81 @@
         <div class="container">
             <img class="hero__logo" src="./images/logocorte.png" alt="Impuros">
             <p class="hero__text">
-                A 5ª temporada de "Impuros" estreia em 24 de julho.
+                A 5ª temporada de "Impuros" estreia em: <span id="contador"></span>
             </p>
+        <div class="infos-bar">
+            <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                    Rua Mário Pereira dos Santos
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                    Rua Mário Pereira dos Santos
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                    Rua Mário Pereira dos Santos
+                </li>
+            </ul>
+            <a href="#" class="button button--primary">
+                Garanta sua Série
+            </a>
+        </div>
+
         </div>
     </header>
 
+    <section class="event event__frame--center event--frontend">
+        <div class="container container__frame" data-aos="zoom-in-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Trailer</h2>
+                <p class="event__details__description event__details__description__frame">
+                    Evandro e Geise disputam o controle do tráfico no primeiro trailer da 5ª temporada
+                </p>
+            </div>
+            <iframe  class="event__frame"  src="https://www.youtube.com/embed/xAMsRAjORIU?si=SDjWAczcTWOBtnds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
 
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="zoom-in-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Trailer</h2>
+                <p class="event__details__description">
+                    Evandro e Geise disputam o controle do tráfico no primeiro trailer da 5ª temporada
+                </p>
+            </div>
+                <img class="event__image"  src="./images/foguinho.jpg" alt="Capa">
+        </div>
+    </section>
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Trailer</h2>
+                <p class="event__details__description">
+                    Evandro e Geise disputam o controle do tráfico no primeiro trailer da 5ª temporada
+                </p>
+            </div>
+                <img class="event__image"  src="./images/foguinho.jpg" alt="Capa">
+        </div>
+    </section>
+
+    <section class="event event--frontend event--image-left">
+        <div class="container" data-aos="zoom-in-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Trailer</h2>
+                <p class="event__details__description">
+                    Evandro e Geise disputam o controle do tráfico no primeiro trailer da 5ª temporada
+                </p>
+            </div>
+                <img class="event__image"  src="./images/foguinho.jpg" alt="Capa">
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
