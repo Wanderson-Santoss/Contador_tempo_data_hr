@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -8,8 +10,8 @@
     border-radius: 20px;
 
     &--primary{
-        color: #fff;
-        background-color: #4F2AC3;
+        color: variables.$secondaryTextColor;
+        background-color: variables.$button;
     }
 
     @media (max-width:640px){

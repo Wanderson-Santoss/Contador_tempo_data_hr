@@ -2,7 +2,7 @@
 
 .infos-bar{
     padding: 16px 24px;
-    background-color: variables.$textColor;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     &__infos{
@@ -11,9 +11,9 @@
 
         &__item {
             font-size: 14px;
-            color: variables.$secondaryTextColor;
+            color: variables.$textColor;
             b{
-                color: variables.$secondaryTextColor;
+                color: variables.$button;
                 font-size: 18px;
                 display: block;
             }

@@ -12,11 +12,11 @@
     }
 
     &--ux-ui{
-        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+        background-image: linear-gradient(variables.$blue2, variables.$blue2);
     }
 
     &--data-science{
-        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+        background-image: linear-gradient(variables.$blue2, variables.$blue1);
     }
 
     &--backend{
@@ -48,8 +48,8 @@
     }
 
     &__image{
-        max-width: 380px;
-        width: 100%;
+        width: 380px;
+        object-fit: cover;
     }
 
     &__details{

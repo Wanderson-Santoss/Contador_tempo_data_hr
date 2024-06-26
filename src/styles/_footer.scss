@@ -1,0 +1,36 @@
+@use 'variables';
+
+.footer {
+    &__container {
+        max-width: 100%; 
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        background-image: linear-gradient(variables.$blue2, variables.$blue1);
+    }
+
+    &__logo {
+        width: 80px; 
+        margin: 0 auto 10px;
+        margin-top: 40px;
+    }
+
+    &__links {
+        margin-bottom: 16px;
+
+        img {
+            width: 30px; 
+            margin: 0 auto 10px;
+        }
+
+        &__item {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                padding: 8px 16px;
+                display: block;
+            }
+        }
+    }
+}
